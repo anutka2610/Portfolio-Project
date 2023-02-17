@@ -3,8 +3,9 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Source Serif Pro', serif;*/
 
 body {
-  background-color: aqua;
+  background-color: rgb(204, 243, 129);
 }
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -12,4 +13,21 @@ h1 {
 
 p {
   font-family: "Poppins", sans-serif;
+}
+
+.page-wrapper {
+  display: grid;
+  padding: 0;
+  min-height: 1200px;
+  margin-left: 7%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  background-color: rgb(72, 49, 212);
+  color: rgb(218, 243, 129);
+}
+.right {
+  background-color: rgb(218, 243, 129);
+  color: rgb(72, 49, 212);
 }

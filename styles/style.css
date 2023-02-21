@@ -72,3 +72,11 @@ img {
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
+
+.main {
+  position: relative;
+}
+.start {
+  position: fixed;
+  max-width: 7%;
+}

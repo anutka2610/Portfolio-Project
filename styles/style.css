@@ -38,12 +38,12 @@ img {
 }
 
 .left {
-  background-color: rgb(72, 49, 212);
-  color: rgb(218, 243, 129);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .right {
-  background-color: rgb(218, 243, 129);
-  color: rgb(72, 49, 212);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   justify-self: center;
 }
 .text {
@@ -77,6 +77,11 @@ img {
   position: relative;
 }
 .start {
+  color: var(--primary-color);
   position: fixed;
   max-width: 7%;
+  margin-top: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  line-height: 154px;
 }

@@ -81,7 +81,7 @@ img {
 }
 .start {
   color: var(--primary-color);
-  
+
   max-width: 7%;
   margin-top: 50px;
   font-family: "Playfair Display", serif;
@@ -94,5 +94,10 @@ img {
   }
   li {
     padding-bottom: 120px;
+  }
+}
+@media (max-width: 950px) {
+  img {
+    visibility: hidden;
   }
 }

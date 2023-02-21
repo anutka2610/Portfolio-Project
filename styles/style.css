@@ -47,7 +47,7 @@ img {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   justify-self: center;
-   padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 .text {
   padding: 150px 50px;
@@ -81,10 +81,18 @@ img {
 }
 .start {
   color: var(--primary-color);
-  position: fixed;
+  
   max-width: 7%;
   margin-top: 50px;
   font-family: "Playfair Display", serif;
   font-size: 24px;
   line-height: 154px;
+}
+@media (max-width: 1500px) {
+  .start {
+    writing-mode: vertical-rl;
+  }
+  li {
+    padding-bottom: 120px;
+  }
 }

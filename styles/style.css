@@ -88,6 +88,9 @@ img {
   font-size: 24px;
   line-height: 154px;
 }
+.navbar {
+  background-color: var(--secondary-color) !important;
+}
 @media (min-width: 600px) {
   .start {
     writing-mode: vertical-rl;
@@ -103,8 +106,16 @@ img {
     left: 0;
     z-index: 1030;
   }
+  li {
+    padding-left: 5px;
+  }
 }
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
+  li {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 650px) {
   img {
     visibility: hidden;
   }

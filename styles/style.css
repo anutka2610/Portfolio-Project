@@ -27,7 +27,7 @@ h2 {
 }
 img {
   margin-top: 50px;
-  max-width: 450px;
+  max-width: 450px !important;
 }
 
 .page-wrapper {

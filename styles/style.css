@@ -33,7 +33,6 @@ img {
 .page-wrapper {
   display: grid;
   padding: 0;
-
   margin-left: 7%;
   grid-template-columns: 1fr 1fr;
 }
@@ -120,5 +119,14 @@ img {
 @media (max-width: 650px) {
   img {
     visibility: hidden;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .left {
+    text-align: center;
   }
 }

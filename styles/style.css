@@ -150,4 +150,12 @@ img {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
+  .start {
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  li {
+    padding: 0;
+  }
 }

@@ -8,6 +8,10 @@ font-family: 'Source Serif Pro', serif;*/
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+html,
+body {
+  overflow: hidden;
+}
 body {
   background-color: rgb(204, 243, 129);
 }
@@ -30,9 +34,8 @@ img {
   max-width: 450px !important;
 }
 
-
-.hightlight{
-    line-height: 56px;
+.hightlight {
+  line-height: 56px;
 }
 .page-wrapper {
   display: grid;
@@ -121,16 +124,30 @@ img {
   }
 }
 @media (max-width: 650px) {
+  body {
+    overflow: hidden;
+  }
   img {
     visibility: hidden;
   }
   h2 {
     font-size: 30px;
+    line-height: 40px;
   }
   h1 {
     font-size: 50px;
   }
+
   .left {
     text-align: center;
+    padding: 0;
+  }
+  .text {
+    padding: 50px 50px 0 50px;
+  }
+  .navigation-link,
+  .projects-link {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
 }

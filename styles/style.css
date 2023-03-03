@@ -4,35 +4,50 @@ font-family: 'Source Serif Pro', serif;*/
 
 :root {
   --primary-color: rgb(72, 49, 212);
-  --secondary-color: rgb(218, 243, 129);
+  --secondary-color: rgb(204, 243, 129);
+  --therd-color: rgba(187, 211, 246, 0.997);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 body {
-  background-color: rgb(204, 243, 129);
+  background-color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
+    color: var(--primary-color);
   font-family: "Playfair Display", serif;
   font-weight: bold;
   line-height: 56px;
   font-size: 68px;
   margin: 30px 0;
+  text-shadow: 1px 1px 1px var(--therd-color);
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
   line-height: 56px;
   font-size: 50px;
+  color: var(--therd-color);
+  text-shadow: 1px 1px 1px var(--primary-color);
 }
-img {
-  margin-top: 50px;
-  max-width: 450px !important;
+
+h3{
+  font-family: "Playfair Display", serif;  
+   font-size: 30px;
+  line-height: 56px;
 }
+
+
+.my-photo {
+  border-radius: 50px;
+
+}
+
 
 .hightlight {
   line-height: 56px;
@@ -44,6 +59,9 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
+.icons{
+    font-size: 30px;
+}
 .left {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -56,7 +74,7 @@ img {
   padding-bottom: 50px;
 }
 .text {
-  padding: 150px 50px;
+  padding:  150px 200px;
 }
 .navigation-link {
   display: flex;
@@ -71,21 +89,25 @@ img {
   text-transform: capitalize;
 }
 .projects-link {
-  background: var(--secondary-color);
+  background: var(--therd-color);
   box-shadow: var(--box-shadow);
   color: var(--primary-color);
+  border: 2.5px solid var(--primary-color);
 }
 
 .contact-link {
   color: var(--secondary-color);
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
+  border: 2.5px solid var(--therd-color);
+  
 }
 
 .main {
   position: relative;
 }
 .start {
+    
   color: var(--primary-color);
   max-width: 7%;
   margin-top: 50px;
@@ -95,6 +117,20 @@ img {
 }
 .navbar {
   background-color: var(--secondary-color) !important;
+}
+
+.section {
+  background-color: var(--therd-color);
+  color: var(--primary-color);
+  border: 2.5px solid var(--primary-color);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.context{
+    text-align: left;
 }
 @media (min-width: 600px) {
   .start {
@@ -127,9 +163,7 @@ img {
   body {
     overflow: hidden;
   }
-  img {
-    visibility: hidden;
-  }
+
   h2 {
     font-size: 30px;
     line-height: 40px;

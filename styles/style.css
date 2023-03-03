@@ -42,6 +42,12 @@ h3 {
   line-height: 56px;
 }
 
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  line-height: 56px;
+  opacity: 0.9;
+}
 .my-photo {
   border-radius: 50px;
 }
@@ -106,6 +112,10 @@ h3 {
 
 .context {
   text-align: left;
+}
+
+.about {
+  text-align: center;
 }
 @media (min-width: 600px) {
   .start {

@@ -85,7 +85,6 @@ h4 {
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
   border: 2.5px solid var(--therd-color);
-  
 }
 
 .main {
@@ -97,7 +96,7 @@ h4 {
   margin-top: 50px;
   font-family: "Playfair Display", serif;
   font-size: 24px;
-  line-height: 130px;
+  line-height: 110px;
 }
 .navbar {
   background-color: var(--secondary-color) !important;
@@ -149,7 +148,7 @@ h4 {
     writing-mode: vertical-rl;
   }
   li {
-    padding-bottom: 120px;
+    padding-bottom: 90px;
   }
 
   .nav {

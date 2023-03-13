@@ -164,6 +164,7 @@ a {
 }
 .contact-info li {
   list-style: none;
+ 
 }
 .active {
   color: var(--therd-color);

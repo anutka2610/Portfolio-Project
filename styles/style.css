@@ -194,6 +194,10 @@ footer .social-links a:hover {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
+
+footer p {
+color: var(--primary-color);
+}
 @media (min-width: 600px) {
   .start {
     writing-mode: vertical-rl;

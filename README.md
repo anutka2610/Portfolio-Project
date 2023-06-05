@@ -1,6 +1,6 @@
 # Portfolio-Project
 This aplicetion is a homework SheCodes Responsive module at SheCode. 
-I made it from scratch. I used multiple HTML pages (Home page, About page, Contact page, Work page), made application responcive and SEO friendly. Also I learned how to use library to stile web-pages and created navbar.
+I made it from scratch. I used multiple HTML pages (Home page, About page, Contact page, Work page), CSS, made application responcive and SEO friendly. Also I learned how to use library to stile web-pages and created navbar.
 
 ## Link on application
  To see and check how it works you can use this link: https://dazzling-croquembouche-f0aa87.netlify.app/home.html

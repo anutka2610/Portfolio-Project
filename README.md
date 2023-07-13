@@ -3,7 +3,7 @@ This aplicetion is a final project SheCodes Responsive module at SheCode course.
 I made it from scratch. I used multiple HTML pages (Home page, About page, Contact page, Work page), CSS, made application responcive and SEO friendly. Also I learned how to use library to stile web-pages and created navbar.
 
 ## Link on application
- To see and check how it works you can use this link: hanna-oriekhova.netlify.app
+ To see and check how it works you can use this link: https://hanna-oriekhova.netlify.app/
 
 ## Feedback
 I am in the process of learning to become IT development. So have a loock on it, maybe you have idea how to improve it. To do this you need make some steps:
